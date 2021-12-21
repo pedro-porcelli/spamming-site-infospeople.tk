@@ -1,16 +1,11 @@
-main {
-    background: #d9d7d5;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
 
-@media (min-width: 600px) {
-    main {
-      flex-wrap: nowrap;
+@-ms-viewport {
+  width: device-width ;
 }
-
-
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
