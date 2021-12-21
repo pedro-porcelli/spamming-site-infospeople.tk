@@ -20,10 +20,5 @@ var transport = nodemailer.createTransport({
 }
 
 function spam() {
-    while (true){
         transporter.sendMail(message);
-        if (stop_click == true) {
-            break;
-        }
-    }
 }
